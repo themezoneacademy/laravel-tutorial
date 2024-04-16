@@ -88,7 +88,9 @@ use Illuminate\Support\Facades\Route;
 
 
 
-Route::get('book/{id}', function($id){
-    return "Hello ".$id;
+// Route::get('book/{id}', function($id){
+//     return "Hello ".$id;
     
-})->where("id", '[0-9]+');
+// })->where("id", '[0-9]+');
+
+
